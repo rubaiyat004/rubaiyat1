@@ -790,6 +790,16 @@ hr{
         font-size: 50px;
     }
     
+    .why-wrapper-grid{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-items: center;
+    }
+    .flex-box-3{
+        grid-column: 1/ span 2;
+    }
+   
    
 }
 
@@ -804,11 +814,9 @@ hr{
         display: none;
     }
     nav ul{
-        float: right;
-        
+        float: right;    
         list-style: none;
-        position: relative;
-         
+        position: relative;   
     }
     
     nav ul li a{
@@ -821,10 +829,7 @@ hr{
         display: inline-block;
         line-height: 50px;
         margin: 0px 10px;
-    
     }
-
-
 
 nav{
     height: 150px;
@@ -832,12 +837,6 @@ nav{
 .banner-area h2{
     font-size: 56px;
 }
-
-
-
-
-
-
 
 .banner-wrapper{
     padding: 0px 150px 80px 150px;
@@ -853,7 +852,6 @@ nav{
     top: 4vh;
     
 }
-
 .about-desc{
     padding-left: 30px;
     }
@@ -865,19 +863,8 @@ column-gap: 15px;
 padding-left: 20px;
 }
 
-
-
 .why-wrapper{
     padding-bottom: 100px;
-}
-.why-wrapper-grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    
-    align-items: center;
-
-    justify-items: center;
-   
 }
 
 
@@ -929,8 +916,11 @@ padding-left: 20px;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
         justify-items: center;
-       
     }
+    .flex-box-3{
+        grid-column: 3/ span 1;
+    }
+    
 }
 
 @media(min-width: 1240px){
